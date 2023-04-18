@@ -4,9 +4,9 @@ class Fraction {
     this.denominator = denominator;
   }
   multiply(fraction)
-  const numerator = this.numerator*fraction.numerator
-  const denominator = this.denominator*fraction.denominator
-  return new Fraction(numerator,denominator)
+  const numerator = this.numerator*fraction.numerator;
+  const denominator = this.denominator*fraction.denominator;
+  return new Fraction(numerator,denominator);
  }
 
  or
